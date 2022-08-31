@@ -1,0 +1,55 @@
+{
+    "categories":[{
+        "title": "Python",
+    "header":"Expand your career opportunities with Python",
+    "description":"Take one of Udemy’s range of Python courses and learn how to code using this incredibly useful language. Its simple syntax and readability makes Python perfect for Flask, Django, data science, and machine learning. You’ll learn how to build everything from games to sites to apps. Choose from a range of courses that will appeal to both beginners and advanced developers alike.",
+    "courses": [
+        {
+            "id": 394676,
+            "title": "Learn Python: The Complete Python Programming Course",
+            "headline": "Learn A-Z everything about Python, from the basics, to advanced topics like Python GUI, Python Data Analysis, and more!",
+            "rating": 4.372561,
+            "image": "https://img-c.udemycdn.com/course/750x422/394676_ce3d_5.jpg",
+            "instructors": "Avinash Jain, The Codex",
+            "price": 16.99
+        },
+        {
+            "id": 396876,
+            "title": "Learning Python for Data Analysis and Visualization",
+            "headline": "Learn python and how to use it to analyze,visualize and present data. Includes tons of sample code and hours of video!",
+            "rating": 4.3899083,
+            "image": "https://img-c.udemycdn.com/course/750x422/396876_cc92_7.jpg",
+            "instructors": "Jose Portilla",
+            "price": 19.99
+        },
+        {
+            "id": 405878,
+            "title": "Python for Beginners - Learn Programming from scratch",
+            "headline": "Python For Beginners : This course is meant for absolute beginners in programming or in python.",
+            "rating": 4.40372,
+            "image": "https://img-c.udemycdn.com/course/750x422/405878_e5a0_3.jpg",
+            "instructors": "Edwin Diaz, Coding Faculty Solutions",
+            "price": 14.99
+        },
+        {
+            "id": 426570,
+            "title": "Learn Python: Python for Beginners",
+            "headline": "Python introduction for beginners. Learn complete Python from scratch!",
+            "rating": 4.2765956,
+            "image": "https://img-c.udemycdn.com/course/750x422/426570_1b91_3.jpg",
+            "instructors": "Abrar Hussain",
+            "price": 16.99
+        },
+        {
+            "id": 449532,
+            "title": "Python Beyond the Basics - Object-Oriented Programming",
+            "headline": "From Classes To Inheritance - OOP In-Depth For Python Programmers",
+            "rating": 4.3240743,
+            "image": "https://img-c.udemycdn.com/course/750x422/449532_2aa9_7.jpg",
+            "instructors": "Infinite Skills",
+            "price": 17.99
+        }
+    ]
+    }]
+    
+}

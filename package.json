@@ -1,0 +1,26 @@
+{
+  "name": "bld.ai-frontend-project-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "home.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZIAD220/bld.ai-Frontend-Project-2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZIAD220/bld.ai-Frontend-Project-2/issues"
+  },
+  "homepage": "https://github.com/ZIAD220/bld.ai-Frontend-Project-2#readme",
+  "devDependencies": {
+    "css-loader": "^6.7.1",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
+}

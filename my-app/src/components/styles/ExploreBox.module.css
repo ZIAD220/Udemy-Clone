@@ -1,0 +1,42 @@
+.exploreBox{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    padding: 35px 0px 0px 35px;
+  }
+  
+  
+.exploreBox > h2{
+  font-size: 22px;
+  text-align: left;
+}
+  
+.exploreBox > p{
+  max-width: 800px;
+  text-align: left;
+}
+
+.exploreBox button{
+  display: flex;
+  justify-self: flex-start;
+  padding: 9px 20px;
+  background-color: white;
+  border-width: 1px;
+  border-radius: 0px;  
+}
+
+.exploreBox button:hover{
+  background-color: rgb(224, 224, 224);
+}
+
+.exploreBox ul{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+#coursesList li{
+  cursor: pointer;
+}
