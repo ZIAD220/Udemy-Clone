@@ -1,0 +1,18 @@
+.note{
+    box-sizing: border-box;
+    box-shadow: 0.5px 0.5px 5px gray;
+    max-width: 150vw;
+    max-height: 9vw;
+    margin: 100px 0 0 80px;
+    padding: 10px 0 10px 35px;
+    border: 1px solid azure;
+    background-color: white;
+}
+
+.note h2{
+    font-size: 24px;
+}
+
+.note p{
+    font-size: 15px;
+}

@@ -1,0 +1,21 @@
+.smallWall{
+    display: none;
+}
+
+.wall{
+    display: flex;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    min-width: 1350px;
+    max-width: 1350px;
+    min-height: 20px;
+    margin-left: 93px;
+    background-color: rgb(237, 237, 237);
+}
+
+.getStarted{
+    float: right;
+    max-width: 40vw;
+    height: auto;
+    margin: 0 0 15px 300px;
+}

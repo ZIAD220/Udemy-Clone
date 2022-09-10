@@ -1,0 +1,21 @@
+.courses{
+    margin: 100px 0px 15px 115px;
+    text-align: left;
+}
+
+.courses > ul > li{
+    color: gray;
+}
+
+.courses > ul > li:hover{
+    color: black;
+}
+
+.courses ul{
+    list-style: none;
+}
+
+.courses li{
+    display: inline-block;
+    padding-right: 20px;
+}

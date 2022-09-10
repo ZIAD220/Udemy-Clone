@@ -1,0 +1,30 @@
+.learnBox{
+    box-sizing: border-box;
+    width: 45%;
+    height: 90%;
+    border: 1px solid black;
+    padding: 35px 0px 35px 35px;
+    text-align: left;
+    margin-left: 200px;
+}
+
+.learnList{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.learnList p{
+    display: inline;
+}
+
+.learnList li{
+    display: flex;
+    margin-right: 0px;
+}
+
+.icons{
+    margin-right: 5px;
+    min-width: 3%;
+    max-width: 3%;
+}

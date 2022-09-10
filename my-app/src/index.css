@@ -8,3 +8,107 @@ body {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;    
 }
+
+/* Adjusting small screen settings.*/
+@media (min-width: 480px) and (max-width: 1000px){
+  .navBig{
+      display: none;
+  }
+  .navSmall{
+      display: inline;
+  }
+  .searchIcon img{
+      max-width: 25px;
+      margin-right: 10px;
+  }
+  .navSmall {
+      display: flex;
+      justify-content: space-between;
+  }
+  .cart img{
+      min-width: auto;
+  }
+  .wall{
+      display: none;
+  }
+  .getStarted{
+      display: block;
+      max-width: 70%;
+      height: auto;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 0;
+  }
+  .smallWall{
+      display: flex;
+      flex-direction: column;
+      min-height: 15px;
+  }
+  .note{
+      min-width: 70%;
+      max-height: 300px;
+      margin-top: 0;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .note h2{
+      font-size: 4vw;
+  }
+  .note p{
+      font-size: 1.8vw;
+  }
+}
+
+/* Adjusting small mobile screen settings.*/
+@media (max-width: 480px) {
+  .courses{
+      margin-left: 0;
+      margin-right: 0;
+  }
+  .navBig{
+      display: none;
+  }
+  .navSmall{
+      display: inline;
+  }
+  .searchIcon img{
+      max-width: 25px;
+      margin-right: 10px;
+  }
+  .navSmall nav{
+      display: flex;
+      justify-content: space-between;
+  }
+  .cart img{
+      min-width: auto;
+  }
+  .wall{
+      display: none;
+  }
+  .getStarted{
+      display: block;
+      max-width: 90%;
+      height: auto;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 0;
+  }
+  .smallWall{
+      display: flex;
+      flex-direction: column;
+  }
+  .note{
+      max-height: 800px;
+      width: 90%;
+      padding-left: 20px;
+      margin-top: 0;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .note h2{
+      font-size: 6vw;
+  }
+  .note p{
+      font-size: 4vw;
+  }   
+}

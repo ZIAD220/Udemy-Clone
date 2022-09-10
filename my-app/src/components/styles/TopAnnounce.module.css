@@ -1,0 +1,7 @@
+/* Top Announcement */
+.topAnnounce{
+    text-align: center;
+    padding: 10px 10px;
+    background-color: rgb(86, 36, 208);
+    color: white;
+}

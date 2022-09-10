@@ -1,0 +1,114 @@
+/* Navigation Bar*/
+header{
+    padding: 10px 10px;
+    box-shadow: 2.5px 2.5px 5px gray;
+}
+
+.logo{
+    cursor: pointer;
+    max-width: 100px;
+    min-width: auto;
+    max-height: 40px;
+    margin-top: 5px;
+}
+
+#searchButton{
+    border-style: none;
+    max-width: 25px;
+    max-height: 24px;
+    margin: auto;
+}
+
+/* Big Navigation Bar*/
+.navBig{
+    display: inline-flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.navBig nav{
+    display: inline-flex;
+    flex-wrap: nowrap;
+}
+
+.navBig a{
+    display: inline-flex;
+    flex-wrap: nowrap;
+    margin: auto;
+    margin-left: 40px;
+}
+
+.navBig a, button{
+    cursor: pointer;
+}
+
+.navBig a:hover{
+    color: rgb(86, 36, 208);
+}
+
+#searchForm{
+    min-width: 10vw;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 80px;
+}
+
+.search{
+    min-width: 10vw;
+    border-radius: 8vw;
+    padding: 10px 130px;
+    text-align: left;
+}
+
+.cart img{
+    display: inline-block;
+    max-width: auto;
+    max-height: 25px;
+    border: none;
+}
+
+.login > button{
+    padding: 9px 20px;
+    background-color: white;
+    border-width: 1px;
+    border-radius: 0px;   
+}
+
+.login > button:hover{
+    background-color: rgb(224, 224, 224);
+}
+
+.signup > button{
+    padding: 9px 20px;
+    background-color: black;
+    color: white;
+    border-width: 1px;
+    border-radius: 0px;   
+}
+
+.lang img{
+    display: inline-block;
+    max-width: 18px;
+    border: none;
+}
+
+.lang > button{
+    padding: 6px 10px;
+    background-color: white;
+    border-width: 1px;
+    border-radius: 0px;   
+}
+
+.lang > button:hover{
+    background-color: rgb(224, 224, 224);
+}
+
+/* Small Navigation Bar*/
+.navSmall{
+    display: none;
+}
+
+.navButton{
+    cursor: pointer;
+    max-width: 40px;
+}
