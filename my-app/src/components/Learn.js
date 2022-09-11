@@ -24,6 +24,7 @@ function Learn() {
                 </li>
             </ul>
         </div>
+        <br></br>
     </>
   )
 }

@@ -1,0 +1,78 @@
+.footer{
+    background-color: rgb(28, 29, 31);
+    padding: 20px 0 90px 40px;
+    text-align: left;
+    color: white;
+}
+
+.topCompanies{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+
+.topCompanies h3{
+    display: inline-block;
+    justify-content: center;
+    line-height: 45px;
+}
+
+.topCompanies h3 strong{
+    color: rgb(199, 192, 252);
+}
+
+.topCompanies ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.topCompanies ul li{
+    margin-right: 30px;
+}
+
+.fcontainer{
+    max-width: 1170px;
+}
+
+.frow{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fcol{
+    width: 25%;
+}
+
+.flist{
+    list-style: none;
+}
+
+.flist li:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.flist li a{
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+}
+
+.flist li a:hover{
+    text-decoration: underline;
+}
+
+.inc{
+    display: flex;
+    justify-content: space-between;
+}
+
+.inc p{
+    font-size: 12px;
+    margin-right: 40px;
+    line-height: 80px;
+}
+
+.inc img{
+    max-width: 100px;
+}

@@ -7,13 +7,14 @@ import ExploreBox from './ExploreBox'
 
 function Home() {
   return (
-    <>
+    <div className="App">
+
         <TopAnnounce></TopAnnounce>
         <NavBar></NavBar>
         <Wall></Wall>
         <CoursesTabs></CoursesTabs>
         <ExploreBox></ExploreBox>
-    </>
+    </div>
   )
 }
 

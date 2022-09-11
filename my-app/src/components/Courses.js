@@ -10,15 +10,6 @@ function Courses() {
         .then((data) => {setList(data[0].courses); console.log(data)});
     }, []);
 
-
-    /*let courses = list[0]["courses"];
-    let cards = courses.map((course) => <Card key={course.id} {...course}></Card>);
-    console.log(cards);*/
-    
-    /*console.log(list);
-    let courses = list.courses;
-    let cards = courses.map(course => <Card key={course.id} {...course}></Card>);*/
-
     return (
         
         <> 

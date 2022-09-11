@@ -1,0 +1,51 @@
+.instructors{
+    margin-left: 200px;
+}
+
+.instructors h2{
+    text-align: left;
+}
+
+#instructorsList{
+    list-style: none;
+    text-align: left;
+    inline-size: 45%;
+}
+
+.instructorName{
+    color: rgb(86, 36, 208);
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: large;
+}
+
+.instructorIntro{
+    font-size: 15px;
+    color: gray;
+}
+
+.instructorImg{
+    display: inline-block;
+    border-radius: 50%;
+    width: 100px;
+}
+
+.instructorStat{
+    list-style: none;
+    display: inline-block;
+}
+
+.instructorStat li{
+    margin-bottom: 5px;
+}
+
+.icons{
+    display: inline-block;
+    width: 12px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.stats{
+    display: inline-block;
+}

@@ -16,7 +16,7 @@ function CourseDetails() {
             to advanced topics like Python GUI, Python Data Analysis, and more!</p>
         <br></br>
         <span>
-            <p>4.4</p> <img className={styles.rate} src={rate}></img>
+            <p className={styles.rateNumber}>4.4</p> <img className={styles.rate} src={rate}></img>
             <a> (3,242 ratings) </a> 19,668 students
         </span>
         <br></br>

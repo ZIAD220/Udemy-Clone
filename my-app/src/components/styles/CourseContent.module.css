@@ -1,0 +1,67 @@
+.courseContent h2{
+    text-align: left;
+    margin-left: 200px;
+}
+
+.duration{
+    text-align: left;
+    width: 45%;
+    margin-left: 200px;
+}
+
+.duration p{
+    display: inline;
+    float: left;
+}
+
+.duration a{
+    float: right;
+    color: rgb(86, 36, 208);
+}
+
+.courseContent ul{
+    list-style: none;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contentList{
+    display: flex;
+    box-sizing: border-box;
+    text-align: left;
+    width: 45%;
+    height: auto;
+    margin-left: 200px;
+}
+
+.contentList li{
+    cursor: pointer;
+    box-sizing: border-box;
+    border: 1px solid rgb(214, 219, 224);
+    padding: 15px 25px 15px 35px;
+    width: 52%;
+    line-height: 150%;
+    background-color: rgb(247, 249, 250);
+}
+
+.contentList h3, h4{
+    float: left;
+}
+
+.contentList p{
+    display: inline;
+    float: right;
+}
+
+.contentList img{
+    float: left;
+    width: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    transform: rotate(90deg);
+}
+
+.contentSubList{
+    background-color: white;   
+}

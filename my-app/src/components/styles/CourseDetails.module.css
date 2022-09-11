@@ -20,7 +20,7 @@
     max-width: 5%;
 }
 
-span p{
+.rateNumber{
     display: inline;
     color: rgb(253, 194, 1);
 }

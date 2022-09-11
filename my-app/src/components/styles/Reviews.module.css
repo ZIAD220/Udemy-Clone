@@ -1,0 +1,68 @@
+.reviews{
+    text-align: left;
+    margin-left: 200px;
+}
+
+.reviewsInput{
+    display: flex;
+}
+
+#searchReviews{
+    padding: 12px 18vw 12px 5px;
+}
+
+#searchButton{
+    width: 50px;
+    margin-right: 30px;
+}
+
+#rates{
+    background-color: aliceblue;
+}
+
+#reviewsList{
+    display: flex;
+    flex-direction: column;
+}
+
+#reviewsList > li{
+    display: flex;
+}
+
+.reviewSpace{
+    list-style: none;
+    margin-left: 10px;
+}
+
+.rate{
+    width: 130px;
+}
+
+.isHelpful{
+    color: rgb(104, 98, 92);
+    font-size: 12px;
+    margin: 5px 0px 5px 0px;
+}
+
+.like, .dislike{
+    display: inline-block;
+    width: 40px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.dislike{
+    transform: rotate(180deg);
+}
+
+.report{
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: underline;
+    margin-left: 15px;
+
+}
+
+#reviewsList hr{
+    max-width: 45%;
+}
