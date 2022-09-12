@@ -35,14 +35,22 @@
     margin-left: 200px;
 }
 
-.contentList li{
-    cursor: pointer;
+.content, .subContent{
     box-sizing: border-box;
     border: 1px solid rgb(214, 219, 224);
     padding: 15px 25px 15px 35px;
     width: 52%;
     line-height: 150%;
+}
+
+.content{
+    cursor: pointer;
     background-color: rgb(247, 249, 250);
+}
+
+.subContent{
+    display: none;
+    background-color: white;   
 }
 
 .contentList h3, h4{
@@ -60,8 +68,4 @@
     margin-right: 10px;
     margin-top: 5px;
     transform: rotate(90deg);
-}
-
-.contentSubList{
-    background-color: white;   
 }

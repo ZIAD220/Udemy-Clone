@@ -4,8 +4,9 @@ import NavBar from './NavBar'
 import Wall from './Wall'
 import CoursesTabs from './CoursesTabs'
 import ExploreBox from './ExploreBox'
+import Footer from './Footer'
 
-function Home() {
+function Home({list}) {
   return (
     <div className="App">
 
@@ -13,7 +14,8 @@ function Home() {
         <NavBar></NavBar>
         <Wall></Wall>
         <CoursesTabs></CoursesTabs>
-        <ExploreBox></ExploreBox>
+        <ExploreBox list={list}></ExploreBox>
+        <Footer></Footer>
     </div>
   )
 }

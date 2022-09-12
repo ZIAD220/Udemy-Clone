@@ -32,6 +32,7 @@
 .reviewSpace{
     list-style: none;
     margin-left: 10px;
+    inline-size: 45%;
 }
 
 .rate{

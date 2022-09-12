@@ -1,7 +1,8 @@
 import React from 'react'
 import styles from './styles/Requirements.module.css'
 
-function Requirements() {
+function Requirements(props) {
+  const {requirements} = props;
   return (
     <>
         <br></br>
@@ -9,7 +10,9 @@ function Requirements() {
             <h2>Requirements</h2>
             <br></br>
             <ul>
-                <li>Macintosh (OSX)/ Windows(Vista and higher) Machine</li>
+              {
+                requirements.map((requirement) => <li>{requirement}</li>)
+              }
             </ul>
         </div>
         <br></br>

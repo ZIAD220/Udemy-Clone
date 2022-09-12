@@ -1,21 +1,14 @@
-import React, {useEffect, useState, useRef} from 'react'
+import React, {useEffect, useState} from 'react'
+import { Link } from 'react-router-dom';
 import Card from './Card'
 
-function Courses() {
-    const [list, setList] = useState([]);
-
-    useEffect(() => {
-        fetch("http://localhost:3001/categories")
-        .then((response) => response.json())
-        .then((data) => {setList(data[0].courses); console.log(data)});
-    }, []);
-
+function Courses({list}) {
     return (
         
         <> 
         {
             //<Card {...list[0]}></Card>
-            list.map(course => <Card key={course.id}{...course}></Card>)
+            list.map(course => <Link to={`/course/${course.id}`}><Card key={course.id}{...course}></Card></Link>)
         }
         </>
     )

@@ -10,20 +10,23 @@ import Requirements from './Requirements'
 import Reviews from './Reviews'
 import StudentFeedback from './StudentFeedback'
 import TopAnnounce from './TopAnnounce'
+import {Routes, Route} from 'react-router-dom'
 
-function CoursePage() {
-  return (
-    <>
+function CoursePage(props) {
+  /*
+  <StudentFeedback></StudentFeedback>
+  */
+ return (
+   <>
         <TopAnnounce></TopAnnounce>
         <NavBar></NavBar>
-        <CourseDetails></CourseDetails>
-        <Learn></Learn>
-        <CourseContent></CourseContent>
-        <Requirements></Requirements>
-        <Description></Description>
-        <Instructors></Instructors>
-        <StudentFeedback></StudentFeedback>
-        <Reviews></Reviews>
+        <CourseDetails {...props}></CourseDetails>
+        <Learn {...props}></Learn>
+        <CourseContent {...props}></CourseContent>
+        <Requirements {...props}></Requirements>
+        <Description {...props}></Description>
+        <Instructors {...props}></Instructors>
+        <Reviews {...props}></Reviews>
         <Footer></Footer>
     </>
   )

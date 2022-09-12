@@ -5,7 +5,8 @@ import UserIcon from './UserIcon'
 import rate from './images/rate4.4.jpg'
 import like from './images/like.png'
 
-function Reviews() {
+function Reviews(props) {
+    const {reviews} = props;
   return (
     <div className={styles.reviews}>
         <h2>Reviews</h2>
@@ -23,32 +24,28 @@ function Reviews() {
         </div>
         <br></br>
         <ul id={styles["reviewsList"]}>
-            <li>
-                <UserIcon name="Asif H."></UserIcon>
-                <ul className={styles.reviewSpace}>
-                    <li>
-                        <h5>Asif H.</h5>
-                    </li>
-                    <li>
-                        <img src={rate} className={styles.rate}></img>
-                    </li>
-                    <li>
-                        <p>Sometimes confusing but was able to clarify. Good job nonetheless.</p>
-                    </li>
-                    <li>
-                        <p className={styles.isHelpful}>Was this review helpful?</p>
-                    </li>
-                    <li>
-                        <img src={like} className={styles.like}></img>
-                        <img src={like} className={styles.dislike}></img>
-                        <a className={styles.report}>Report</a>
-                    </li>
-                </ul>
-                <br></br>
-            </li>
-            <br></br>
-            <hr></hr>
-            <br></br>
+                {
+                    reviews.map((review) => 
+                        <><li>
+                            <UserIcon name={review.name}></UserIcon>
+                            <ul className={styles.reviewSpace}>
+                                <li><h5>{review.name}.</h5></li>
+                                <li><img src={rate} className={styles.rate}></img></li>
+                                <li><p>{review.content}</p></li>
+                                <li><p className={styles.isHelpful}>Was this review helpful?</p></li>
+                                <li>
+                                    <img src={like} className={styles.like}></img>
+                                    <img src={like} className={styles.dislike}></img>
+                                    <a className={styles.report}>Report</a>
+                                </li>
+                            </ul>
+                            <br></br>
+                        </li>
+                        <br></br>
+                        <hr></hr>
+                        <br></br></>
+                    )
+                }
         </ul>
     </div>
   )
