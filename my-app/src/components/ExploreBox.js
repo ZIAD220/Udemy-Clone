@@ -15,7 +15,7 @@ function ExploreBox({list}) {
           <br></br>
           <button id="exploreButton"><b>Explore Python</b></button>
           <br></br><br></br>
-          <ul id="coursesList">
+          <ul id={styles["coursesList"]}>
             <Courses list={list}></Courses>
           </ul>
       </div>

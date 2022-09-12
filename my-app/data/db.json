@@ -926,7 +926,9 @@
             "rating": 4.3240743,
             "image": "https://img-c.udemycdn.com/course/750x422/449532_2aa9_7.jpg",
             "instructors": "Infinite Skills",
-            "price": 17.99
+            "price": 17.99,
+            "overview":[],
+            "lastUpdate":""
         }
     ]
     }]

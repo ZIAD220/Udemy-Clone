@@ -39,4 +39,5 @@
 
 #coursesList li{
   cursor: pointer;
+  position: relative;
 }
