@@ -1,0 +1,16 @@
+.box{
+    box-sizing: border-box;
+    width: 85%;
+    height: 90%;
+    margin: auto;
+    border: 1px solid black;
+    padding: 35px 0px 0px 35px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+#coursesList{
+    list-style: none;
+    display: flex;
+}

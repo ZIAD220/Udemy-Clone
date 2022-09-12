@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import './App.css';
 import Home from './components/Home';
 import CoursePage from './components/CoursePage';
+import SearchPage from './components/SearchPage';
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
       <div className="App">
         <Routes>
           <Route path='/' element={<Home list={list}/>}/>
+          <Route path='/results' element={<SearchPage list={list}/>}/>
           {coursesRoutes}
         </Routes>
       </div>

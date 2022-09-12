@@ -5,9 +5,11 @@ import logo from './images/logo.png'
 import search from './images/search.png'
 import shoopingCart from './images/shooping cart.png'
 import lang from './images/lang.png'
+import {Outlet, createSearchParams, useNavigate, useSearchParams} from 'react-router-dom'
 
 function NavBar() {
-  return (
+    const navigate = useNavigate();
+    return (
     <header>
         
         <nav className={styles.navSmall}>
@@ -24,7 +26,17 @@ function NavBar() {
             <nav>
                 <a>Categories</a>
                 <form id={styles["searchForm"]} name="searchForm">
-                    <input type="image" src={search} alt="search" id={styles["searchButton"]}></input>
+                    <input type="image" src={search} alt="search" id={styles["searchButton"]} onClick={function(e){
+                        e.preventDefault();
+                        let need = document.forms[0]["search"].value;
+                        need = need.toLowerCase();
+                        navigate({
+                            pathname: 'results',
+                            search: createSearchParams({
+                                search_query : need
+                            }).toString()
+                        });
+                    }}></input>
                     <input className={styles.search} name="search" type="text" placeholder="Search for anything"></input>
                 </form>
                 <a>Udemy Business</a>
