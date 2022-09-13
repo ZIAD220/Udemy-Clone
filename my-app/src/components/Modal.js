@@ -9,8 +9,7 @@ import trophy from './images/trophy.png'
 import './styles/CourseDetails.module.css'
 import CourseDetails from "./CourseDetails"
 
-export default function Modal() {
-
+export default function Modal(props) {
     useEffect(() => function(){
     // When the user scrolls the page, execute myFunction
     window.onscroll = function() {myFunction()};
@@ -34,13 +33,15 @@ export default function Modal() {
     }
     })
 
+    const {image, price, originalPrice} = props;
+
   return (
     <div className={styles.modal} id="modalBox">
-        <img src="https://img-b.udemycdn.com/course/240x135/394676_ce3d_5.jpg" id="courseImage"></img>
+        <img src={image} className={styles.photo}id="courseImage"></img>
         <div className={styles.modalContent}>
         <ul className={styles.pricesList}>
-            <li><h1>E£269.99</h1></li>
-            <li><h3 id={styles["originalPrice"]}>E£679.99</h3></li>
+            <li><h1>E£{price}</h1></li>
+            <li><h3 id={styles["originalPrice"]}>E£{originalPrice}</h3></li>
             <li><p id={styles["discount"]}>60% off</p></li>
         </ul>
         <p id={styles["dontMiss"]}><strong>2 days </strong> left at this price</p><br/>

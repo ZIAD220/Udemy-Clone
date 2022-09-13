@@ -21,7 +21,7 @@ function CoursePage(props) {
    <>
         <TopAnnounce></TopAnnounce>
         <NavBar></NavBar>
-        <Modal></Modal>
+        <Modal {...props}></Modal>
         <CourseDetails {...props}></CourseDetails>
         <Learn {...props}></Learn>
         <CourseContent {...props}></CourseContent>
