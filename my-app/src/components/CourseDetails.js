@@ -6,7 +6,7 @@ import lang from './images/lang.png'
 import cc from './images/cc.png'
 
 function CourseDetails(props) {
-  const {title, headline, rate, ratingCount, enrollCount, image, instructors, lastUpdate, globe, Captioning} = props;
+  const {title, headline, rate, ratingCount, enrollCount, instructors, lastUpdate, globe, Captioning} = props;
   return (
     <div className={styles.box} id="courseDetails">
         <h5><a>Development</a> {">"} <a>Programming Languages</a> {">"} <a>Python</a></h5>

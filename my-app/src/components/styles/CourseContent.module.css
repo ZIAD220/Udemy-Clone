@@ -1,12 +1,12 @@
 .courseContent h2{
     text-align: left;
-    margin-left: 200px;
+    margin-left: 13%;
 }
 
 .duration{
     text-align: left;
     width: 45%;
-    margin-left: 200px;
+    margin-left: 13%;
 }
 
 .duration p{
@@ -32,7 +32,7 @@
     text-align: left;
     width: 45%;
     height: auto;
-    margin-left: 200px;
+    margin-left: 13%;
 }
 
 .content, .subContent{
