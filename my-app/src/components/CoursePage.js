@@ -11,6 +11,7 @@ import Reviews from './Reviews'
 import StudentFeedback from './StudentFeedback'
 import TopAnnounce from './TopAnnounce'
 import {Routes, Route} from 'react-router-dom'
+import Modal from './Modal'
 
 function CoursePage(props) {
   /*
@@ -20,6 +21,7 @@ function CoursePage(props) {
    <>
         <TopAnnounce></TopAnnounce>
         <NavBar></NavBar>
+        <Modal></Modal>
         <CourseDetails {...props}></CourseDetails>
         <Learn {...props}></Learn>
         <CourseContent {...props}></CourseContent>

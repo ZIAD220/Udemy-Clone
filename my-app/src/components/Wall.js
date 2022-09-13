@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './styles/Wall.module.css'
+import './styles/Wall.css'
 import Note from './Note.js'
 import girl from './images/girl.png'
 
@@ -7,12 +7,12 @@ function Wall() {
   return (
     <>
     <br></br>
-    <div className={styles.wall}>
+    <div className="wall">
         <Note></Note>
-        <img src={girl} alt="get started" className={styles.getStarted}></img>
+        <img src={girl} alt="get started" className="getStarted"></img>
     </div>
-    <div className={styles.smallWall}>
-        <img src={girl} alt="get started" className={styles.getStarted}></img>
+    <div className="smallWall">
+        <img src={girl} alt="get started" className="getStarted"></img>
         <Note></Note>
     </div>
     </>

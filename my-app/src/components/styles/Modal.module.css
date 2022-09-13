@@ -1,0 +1,136 @@
+.modal{
+    width: 75vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: left;
+    position: absolute;
+}
+
+#courseImage{
+    position: absolute;
+    top: 37%;
+    left: 98%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: white;
+    padding: 14px 28px;
+    border-radius: 3px;
+    max-width: 600px;
+    min-width: 300px;
+}
+
+.modalContent {
+    position: absolute;
+    top: 95%;
+    left: 98%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: white;
+    padding: 14px 28px;
+    border-radius: 3px;
+    max-width: 600px;
+    min-width: 300px;
+    box-shadow: 1.5px 1px 5px 1px gray;
+}
+
+.sticky {
+    position: fixed;
+    top: 50%;
+    width: 100%
+}
+
+.pricesList{
+    list-style: none;
+    display: flex;
+}
+
+.pricesList li:not(:first-child){
+    margin: auto;
+}
+
+#originalPrice{
+    text-decoration: line-through;
+    color: gray;
+}
+
+#discount{
+    color: rgb(28, 29, 31);
+}
+
+#dontMiss{
+    color: rgb(193, 85, 60);
+}
+
+.btn{
+    padding: 15px 106px 15px 106px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#addCart{
+    border: none;
+    background-color: rgb(164, 53, 240);
+    color: white;
+}
+
+#buyNow{
+    border: 1px solid black;
+    background-color: white;
+    padding-right: 120px;
+}
+
+#moneyBack{
+    text-align: center;
+    font-size: 13px;
+    color: rgb(81, 81, 81);
+}
+
+.courseIncludes{
+    list-style: none;
+}
+
+.courseIncludes li{
+    padding-bottom: 5px;
+}
+
+.courseIncludes li p{
+    display: inline;
+}
+
+.icons{
+    display: inline-block;
+    margin-right: 10px;
+    width: 15px;
+}
+
+.shareLinks{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.shareLinks li a{
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#isTraining{
+    font-size: larger;
+}
+
+#teamAccess{
+    color: gray;
+}
+
+#tryUdemy{
+    text-align: center;
+    padding: auto;
+    background-color: white;
+    border: 1px solid black;
+}

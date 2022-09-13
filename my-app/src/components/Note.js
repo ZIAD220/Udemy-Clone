@@ -1,9 +1,10 @@
 import React from 'react'
-import styles from './styles/Note.module.css'
+import './styles/Note.css'
+import './styles/MediaStyles.css'
 
 function Note() {
   return (
-    <div className={styles.note}>
+    <div className="note">
         <h2>Learning that gets you</h2><br></br>
         <p>Skills for your present (and your future). Get started with us.</p>
     </div>

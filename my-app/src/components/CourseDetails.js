@@ -8,12 +8,12 @@ import cc from './images/cc.png'
 function CourseDetails(props) {
   const {title, headline, rate, ratingCount, enrollCount, image, instructors, lastUpdate, globe, Captioning} = props;
   return (
-    <div className={styles.box}>
+    <div className={styles.box} id="courseDetails">
         <h5><a>Development</a> {">"} <a>Programming Languages</a> {">"} <a>Python</a></h5>
         <br></br>
         <h1>{title}</h1>
         <br></br>
-        <p>{headline}</p>
+        <p className={styles.headline}>{headline}</p>
         <br></br>
         <span>
             <p className={styles.rateNumber}>{rate}</p> <img className={styles.rate} src={rateImg}></img>
