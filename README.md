@@ -1,1 +1,2 @@
-# bld.ai-Frontend-Project-2
+# Udemy Clone
+This is a clone to the popular course website Udemy using React.
